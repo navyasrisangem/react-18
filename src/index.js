@@ -11,12 +11,12 @@ import { FetchHookDemo } from './components/hooks-demo/fetch-hook-demo';
 import { SortHookDemo } from './components/hooks-demo/sort-hook-demo';
 import { FilterHookDemo } from './components/hooks-demo/filter-hook-demo';
 import { HookDemo } from './components/hooks-demo/hook-demo';
+import { ContextDemo } from './components/hooks-demo/use-context-demo';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  
-    <HookDemo />
-  
+root.render(  
+    <ContextDemo />  
 );
 
 // If you want to start measuring performance in your app, pass a function
